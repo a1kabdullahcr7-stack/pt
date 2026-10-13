@@ -1,0 +1,56 @@
+body{
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #fff;
+
+}
+.navigation{
+  background-color: #222;
+  border-top: 2px solid #f2a900;
+  padding: 12px 40px;
+}
+.brand-logo{
+  height: 26px;
+  width: auto;
+}
+.navigation-link{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+.navigation-link:hover{
+color: #f2a900;
+}
+
+html{
+scroll-behavior: smooth;
+}
+.m-heading{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-white{
+  color: white;
+}
+.main-container{
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(https://uploads.onecompiler.io/44tc7pb76/1782398942395/luca-micheli-ruWkmt3nU58-unsplash.jpg);
+background-attachment: fixed;
+background-size: cover;
+}
+.main-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-row h1{
+  font-size: 5rem;
+}
+.main-row img{
+width: auto;
+height: 100vh;
+}
